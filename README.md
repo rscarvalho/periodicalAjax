@@ -6,7 +6,9 @@
 
 ### Example
 
-  $.periodicalAjax("/path/to/url", 1000, {complete: function({ alert("Completed!") })});
+  $.periodicalAjax("/path/to/url", 1000, {
+    complete: function(){ alert("Completed!"); }
+  });
 
 
 ## License
