@@ -1,14 +1,17 @@
 # periodicalAjax: Periodical AJAX calls made the right way
 
 ## Usage
-
+  ```
   $.periodicalAjax(url, frequency, ajaxSettings)
+  ```
 
 ### Example
 
+  ```
   $.periodicalAjax("/path/to/url", 1000, {
     complete: function(){ alert("Completed!"); }
   });
+  ```
 
 
 ## License
