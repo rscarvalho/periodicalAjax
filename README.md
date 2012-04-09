@@ -5,9 +5,11 @@
 ## Usage
 
   1. Include periodicalAjax.js (or periodicalAjax.min.js) in your html file:
+
      `<script type="text/javascript" src="periodicalAjax.min.js"></script>`
 
   2. Call the function to start making ajax calls:
+
      `$.periodicalAjax(url, frequency, ajaxSettings)`
 
 ### Example
@@ -17,6 +19,7 @@
     complete: function(){ alert("Completed!"); }
   });
   ```
+  
 ## Issues
 
 Please feel free to create a new issue if you want a new feature or a bug fix, and forks / pull requests are welcome as well.
