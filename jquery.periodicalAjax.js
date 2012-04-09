@@ -41,10 +41,15 @@
         this.isRunning = false;
         this.url = url;
         this.callInterval = -1;
-        if (window.console !== undefined)
+        if (window.console !== undefined) {
             this.console = window.console;
-        else
-            this.console = function() { /* Discard output */ };
+        } else {
+            this.console = {
+              log: function() { /* Discard output */ },
+              error: function() { /*...*/ },
+              warn: function() { /*..*/ }
+            };
+        }
         this.request = null;
     };
 
