@@ -1,0 +1,13 @@
+{
+  "name": "rscarvalho/periodicalAjax",
+  "version": "1.0.0",
+  "main": "jquery.periodicalAjax.js",
+  "description": "periodicalAjax is a small library to make AJAX calls from time to time. It prevents the timer to execute the ajax call before the last one has been completed, avoiding the script to flood the server with requests.",
+  "license": "MIT",
+  "ignore": [
+      ".gitignore"
+  ],
+  "dependencies": {
+    "jquery": "~1.10.0"
+  }
+}
